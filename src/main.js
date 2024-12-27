@@ -1,4 +1,5 @@
 const { invoke } = window.__TAURI__.core;
+console.log(window.__TAURI__);
 
 let greetInputEl;
 let greetMsgEl;

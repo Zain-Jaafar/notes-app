@@ -10,9 +10,9 @@
     "withGlobalTauri": true,
     "windows": [
       {
-        "title": "notes-app",
-        "width": 800,
-        "height": 600
+        "title": "Notes App",
+        "width": 1000,
+        "height": 800
       }
     ],
     "security": {
