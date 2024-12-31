@@ -4,4 +4,7 @@ This is a simple, fast, lightweight note taking app that fits to my needs, using
 
 ## TODO
 - [ ] add a licence
-- [ ] add things to todo list
+- [ ] add a way write/edit notes
+- [ ] add a way to create/delete notes
+- [ ] add a button which toggles a view of the filestructure
+- [ ] add simple, good styling
