@@ -1,5 +1,14 @@
+// import { register } from '@tauri-apps/plugin-global-shortcut';
 const { invoke } = window.__TAURI__.core;
 console.log(window.__TAURI__);
+
+// when using `"withGlobalTauri": true`, you may use
+const { register } = window.__TAURI__.globalShortcut;
+console.log(window.__TAURI__.globalShortcut);
+
+await register('CommandOrControl+Shift+P', () => {
+  console.log('Command Palette opened');
+});
 
 let greetInputEl;
 let greetMsgEl;
